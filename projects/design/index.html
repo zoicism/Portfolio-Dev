@@ -1,0 +1,1206 @@
+<!DOCTYPE html lang="tr">
+<html>
+<head>
+	<title>Sina Ghanbari</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <a id="button">
+		<svg viewBox="0 0 40 40"><defs></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"/><polygon points="11.5 20 20 11.5 28.5 20 27.5 20.9 20.7 14.1 20.7 28.5 19.3 28.5 19.3 14.1 12.5 20.9 11.5 20"/></svg>
+	</a>
+    
+    <div class="top-bar">
+		<div class="logo-container">
+			<svg viewBox="0 0 260 260"><defs><style></style></defs><path d="M200,130a66.3,66.3,0,0,1-.7,10A70.3,70.3,0,0,1,140,199.3a71.8,71.8,0,0,1-20,0A70.3,70.3,0,0,1,60.7,140a71.8,71.8,0,0,1,0-20A70.3,70.3,0,0,1,120,60.7a71.8,71.8,0,0,1,20,0V81a50.5,50.5,0,0,0-20,0,50.1,50.1,0,0,0-39,39,50.5,50.5,0,0,0,0,20,50.1,50.1,0,0,0,39,39,50.5,50.5,0,0,0,20,0,49.2,49.2,0,0,0,25.3-13.7A49.9,49.9,0,0,0,179,140H140V120h59.3A66.3,66.3,0,0,1,200,130Z"/><path d="M260,130c0,3.4-.1,6.7-.4,10A130.1,130.1,0,0,1,140,259.6c-3.3.3-6.6.4-10,.4s-6.7-.1-10-.4A130,130,0,0,1,20.5,200,122.8,122.8,0,0,1,10,180H32a108.2,108.2,0,0,0,13.2,20A109.9,109.9,0,0,0,120,239.5c3.3.3,6.6.5,10,.5s6.7-.2,10-.5A109.9,109.9,0,0,0,214.8,200a108.6,108.6,0,0,0,24.7-60c.3-3.3.5-6.6.5-10s-.2-6.7-.5-10h20.1C259.9,123.3,260,126.6,260,130Z"/><path d="M250,80H228a108.2,108.2,0,0,0-13.2-20A109.9,109.9,0,0,0,140,20.5a82.7,82.7,0,0,0-10-.5,82.7,82.7,0,0,0-10,.5A109.9,109.9,0,0,0,45.2,60a108.6,108.6,0,0,0-24.7,60,82.7,82.7,0,0,0-.5,10,82.7,82.7,0,0,0,.5,10H.4c-.3-3.3-.4-6.6-.4-10s.1-6.7.4-10A130.2,130.2,0,0,1,10,80,122.8,122.8,0,0,1,20.5,60,130,130,0,0,1,120,.4c3.3-.3,6.6-.4,10-.4s6.7.1,10,.4A130.4,130.4,0,0,1,250,80Z"/></svg>
+			<div class="logo-txt">
+				<div class="logo-name">SINA GHANBARI</div>
+				<div class="logo-profession">ARCHITECT & DESIGNER</div>
+			</div>
+		</div>
+		<div class="links">
+			<a href="/" class="link engl">HOME</a>
+			<a href="/" class="link turk" style="display: none;">EV</a>
+			<a href="/#projects-page" class="link engl" style="border-bottom: 1px solid #212529;">PROJECTS</a>
+			<a href="/#projects-page" class="link turk" style="border-bottom: 1px solid #212529;display: none;">PROJELER</a>
+			<a href="/awards/" class="link engl">AWARDS</a>
+			<a href="/awards/" class="link turk" style="display: none;">ÖDÜLLER</a>
+			<a href="/about/" class="link engl">ABOUT</a>
+			<a href="/about/" class="link turk" style="display: none;">HAKKINDA</a>
+			<a href="/contact/" class="link engl">CONTACT</a>
+			<a href="/contact/" class="link TURK" style="display: none;">İLETİŞİM</a>
+			<a class="link lang-cnt lang">EN</a>
+		</div>
+		
+		<span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+		<div id="mySidenav" class="sidenav">
+		    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="/" class="link engl">HOME</a>
+			<a href="/" class="link turk" style="display: none;">EV</a>
+			<a href="#projects-page" class="link engl" style="border-bottom: 1px solid #434a52;">PROJECTS</a>
+			<a href="#projects-page" class="link turk" style="border-bottom: 1px solid #434a52;display: none;">PROJELER</a>
+			<a href="/awards/" class="link engl">AWARDS</a>
+			<a href="/awards/" class="link turk" style="display: none;">ÖDÜLLER</a>
+			<a href="/about/" class="link engl">ABOUT</a>
+			<a href="/about/" class="link turk" style="border-bottom: 1px solid #434a52;display: none;">HAKKINDA</a>
+			<a href="/contact/" class="link engl">CONTACT</a>
+			<a href="/contact/" class="link turk" style="display: none;">İLETİŞİM</a>
+			<a class="link lang-cnt lang">EN</a>
+		</div>
+		
+	</div>
+    
+	<div class="project-cnt">
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p01/p01-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p01/p01-02.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p01/p01-03.png" style="width:100%">
+				  	</div>
+				    
+				  	<div class="mySlides slides">
+				    	<img src="/images/p01/p01-04.jpg" style="width:100%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p01/p01-05.jpg" style="width:100%">
+				  	</div>
+				    
+				  	<div class="mySlides slides">
+				    	<img src="/images/p01/p01-06.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p01/p01-01.jpg" style="width:100%;" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p01/p01-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p01/p01-03.png" style="width:100%" onclick="currentSlide(this, 3)" alt="Mountains and fjords">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p01/p01-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="Northern Lights">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p01/p01-05.jpg" style="width:100%" onclick="currentSlide(this, 5)" alt="Mountains and fjords">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p01/p01-06.jpg" style="width:100%" onclick="currentSlide(this, 6)" alt="Northern Lights">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Booth Design for an Exhibition in Ankara
+			</div>
+			<div class="project-text tur" style="display:none">
+				Ankara'da bir fuar tasarımı
+			</div>
+		</div>
+
+
+		<div class="project reverse">
+			<div class="project-text eng">
+				Lobby designed for Hotel in Istanbul
+			</div>
+			<div class="project-text tur" style="display:none">
+				İstanbul'daki Otel için tasarlanmış lobi
+			</div>
+
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p02/p02-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p02/p02-02.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p02/p02-03.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p02/p02-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p02/p02-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p02/p02-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="Mountains and fjords">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p03/p03-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p03/p03-02.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p03/p03-03.jpg" style="width:100%">
+				  	</div>
+				    
+				  	<div class="mySlides slides">
+				    	<img src="/images/p03/p03-04.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p03/p03-01.jpg" style="width:100%;" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p03/p03-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p03/p03-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="Mountains and fjords">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p03/p03-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="Northern Lights">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Bedroom modeling and creation in Istanbul
+			</div>
+			<div class="project-text tur" style="display:none">
+				İstanbul'da yatak odası modellemesi ve tasarımı
+			</div>
+		</div>
+		
+		
+		<div class="project reverse">
+			<div class="project-text eng">
+				Designing of Sport Hotel Rooms in Istanbul
+			</div>
+			<div class="project-text tur" style="display:none">
+				Sport Otel Odaların tasarımı
+			</div>
+
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p04/p04-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p04/p04-02.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p04/p04-03.jpg" style="height:83%;">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p04/p04-04.jpg" style="height:83%;">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p04/p04-05.jpg" style="height:83%;">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p04/p04-06.jpg" style="height:83%;">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p04/p04-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p04/p04-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p04/p04-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="Mountains and fjords">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p04/p04-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p04/p04-05.jpg" style="width:100%" onclick="currentSlide(this, 5)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p04/p04-06.jpg" style="width:100%" onclick="currentSlide(this, 6)" alt="The Woods">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p05/p05-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p05/p05-02.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p05/p05-01.jpg" style="width:100%;" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p05/p05-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Modern kitchen design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Mutfak tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+			<div class="project-text eng">
+				Handy Resident Studio at 60 meters, 35 meters<br>
+                Modeling with 3ds max application<br>
+                Presentation with Corona engine
+			</div>
+			<div class="project-text tur" style="display:none">
+				60 metre, 35 metre boyutunda kullanışlı Resident Studio<br>
+				3ds max uygulama ile modelleme<br>
+				Corona motoru ile sunum
+			</div>
+
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p06/p06-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p06/p06-02.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p06/p06-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p06/p06-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p07/p07-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Lobby designed for Art Gallery entrance
+			</div>
+			<div class="project-text tur" style="display:none">
+				Sanat Galerisi girişi için tasarlanmış lobi
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Office unit design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Office unit design
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p08/p08-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p09/p09-01.jpg" style="width:100%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p09/p09-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p09/p09-03.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p09/p09-04.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p09/p09-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p09/p09-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p09/p09-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p09/p09-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Design of residences in neoclassical style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Neoklasik tarzıyla konutların tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Residential lobby design in classic style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Klasik tarzıyla konut lobisi tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p10/p10-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p10/p10-02.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p10/p10-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p10/p10-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p11/p11-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p11/p11-02.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p11/p11-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p11/p11-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Business and office unit design
+			</div>
+			<div class="project-text tur" style="display:none">
+				İş ve ofis birim tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Residential design in minimalist style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Minimalist tarzda konut tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p12/p12-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p12/p12-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p12/p12-03.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p12/p12-04.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p12/p12-05.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p12/p12-06.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p12/p12-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p12/p12-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p12/p12-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p12/p12-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p12/p12-05.jpg" style="width:100%" onclick="currentSlide(this, 5)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p12/p12-06.jpg" style="width:100%" onclick="currentSlide(this, 6)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p13/p13-01.jpg" style="height:85%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p13/p13-02.jpg" style="height:85%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p13/p13-03.jpg" style="height:85%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p13/p13-04.jpg" style="height:85%">
+				  	</div>
+				  	
+				  	<div class="mySlides slides">
+				    	<img src="/images/p13/p13-05.jpg" style="height:85%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p13/p13-06.jpg" style="height:85%">
+				  	</div>
+
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p13/p13-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p13/p13-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p13/p13-03.jpg" style="width:100%" onclick="currentSlide(this, 3)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p13/p13-04.jpg" style="width:100%" onclick="currentSlide(this, 4)" alt="Cinque Terre">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p13/p13-05.jpg" style="width:100%" onclick="currentSlide(this, 5)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p13/p13-06.jpg" style="width:100%" onclick="currentSlide(this, 6)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Office and commercial unit design with an area of 75 m2
+			</div>
+			<div class="project-text tur" style="display:none">
+				75 metre alana sahip ofis ve ticari ünite tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Master room design in neoclassical style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Neoklasik tarzda mastır odası tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p14/p14-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p14/p14-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p14/p14-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p14/p14-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p15/p15-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Modeling and creation of implemented Rieteiland
+			</div>
+			<div class="project-text tur" style="display:none">
+				Uygulanan Rieteiland a modellenmesi ve oluşturulması
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Bedroom modeling and creation
+			</div>
+			<div class="project-text tur" style="display:none">
+				Yatak odası modelleme ve oluşturma
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p16/p16-01.jpg" class="img-m" style="width:85%">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p17/p17-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Designing a office for a lawyer
+			</div>
+			<div class="project-text tur" style="display:none">
+				Avukat için çalışma odası tasarlama
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				bedroom design for teenage girl
+			</div>
+			<div class="project-text tur" style="display:none">
+				genç kız için yatak odası tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p18/p18-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p18/p18-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p18/p18-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p18/p18-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p19/p19-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+
+			<div class="project-text eng">
+				Kitchen design in a classic style with an area of 40 square meters
+			</div>
+			<div class="project-text tur" style="display:none">
+				40 metrekarelik alana sahip klasik tarzında olan mutfak tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Modern kitchen design with an area of 12 square meters
+			</div>
+			<div class="project-text tur" style="display:none">
+				12 metrekarelik bir alana sahip modern mutfak tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p20/p20-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p21/p21-01.jpg" class="img-m" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p21/p21-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p21/p21-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p21/p21-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Neo-classical style lobby and residential unit design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Neo-klasik tarzda lobi ve konut birimi tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Food Court and Atrium Commercial Walkway Design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Foodcort ve Atrium Ticari Geçit Tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p22/p22-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p23/p23-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Lobby design for medical unit by combining brick and wood
+			</div>
+			<div class="project-text tur" style="display:none">
+				Tuğla ve ahşabı birleştirerek yaşlı tıbbi ünite için lobi tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Classic style single storey villa design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Klasik tarzda tek katlı villa tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p24/p24-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p24/p24-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p24/p24-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p24/p24-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p25/p25-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Library project design, modeling and presentation
+			</div>
+			<div class="project-text tur" style="display:none">
+				Kütüphane proje tasarımı, modellemesi ve sunumu
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Vitrin design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Setareh Baran Passage'da manteau mağazası için vitrin tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p26/p26-01.jpg" style="width:85%;">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p27/p27-01.jpg" style="width:100%">
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Modern style villa design
+		    </div>
+		    <div class="project-text tur" style="display:none">
+				Modern tarzda villa tasarımı
+		    </div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Frontal design for a 10-storey tower in classic style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Klasik tarzda olan 10 katlı kule için cephe tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="single-slide" style="display:block">
+				    	<img src="/images/p28/p28-01.jpg" style="width:100%;">
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p29/p29-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p29/p29-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p29/p29-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p29/p29-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Classic style facade design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Klasik tarzda cephe tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Modern style villa modeling and rendering
+			</div>
+			<div class="project-text tur" style="display:none">
+				Modern tarzda villa modelleme ve renderleme
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p30/p30-01.jpg" class="img-m" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p30/p30-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p30/p30-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p30/p30-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="project">
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p31/p31-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p31/p31-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p31/p31-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p31/p31-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="project-text eng">
+				Facade design in modern style
+			</div>
+			<div class="project-text tur" style="display:none">
+				Modern tarzda cephe tasarımı
+			</div>
+		</div>
+		
+		<div class="project reverse">
+		    <div class="project-text eng">
+				Reception and office room office unit design
+			</div>
+			<div class="project-text tur" style="display:none">
+				Resepsiyon ve ofis odası ofis ünitesi tasarımı
+			</div>
+		    
+			<div class="project-img">
+				<div class="container">
+				  	<div class="mySlides slides" style="display:block">
+				    	<img src="/images/p32/p32-01.jpg" style="height:80%">
+				  	</div>
+
+				  	<div class="mySlides slides">
+				    	<img src="/images/p32/p32-02.jpg" style="height:80%">
+				  	</div>
+				  	
+				  	<div class="row">
+				  		<a class="prev" onclick="plusSlides(this, -1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="25.3 11 14.7 20 25.3 29"></polyline></svg>
+						</a>
+				    	<div class="column">
+				      		<img class="demo cursor active" src="/images/p32/p32-01.jpg" style="width:100%" onclick="currentSlide(this, 1)" alt="The Woods">
+				    	</div>
+				    	<div class="column">
+				      		<img class="demo cursor" src="/images/p32/p32-02.jpg" style="width:100%" onclick="currentSlide(this, 2)" alt="Cinque Terre">
+				    	</div>
+				    	<a class="next" onclick="plusSlides(this, 1)">
+							<svg viewBox="0 0 40 40"><defs><style>.cls-1{fill:#212529;}.cls-2{fill:none;stroke:#212529;stroke-miterlimit:10;}</style></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"></path><polyline class="cls-2" points="14.7 11 25.3 20 14.7 29"></polyline></svg>
+						</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+    		<div class="footer-contact">
+    			<div class="contact-txt">CONTACT</div>
+    			<div>EMAIL: sinaghanbari.designer@gmail.com</div>
+    			<div>PHONE: +905013209432</div>
+    		</div>
+    		<div class="copyright">
+    			<svg viewBox="0 0 16 16"><defs><style>.cls-1{fill:#dee2e6;}</style></defs><path d="M13.7,2.3A8.4,8.4,0,0,0,8,0,8.4,8.4,0,0,0,2.3,2.3,8.4,8.4,0,0,0,0,8a8.4,8.4,0,0,0,2.3,5.7A8.4,8.4,0,0,0,8,16a8.4,8.4,0,0,0,5.7-2.3A8.4,8.4,0,0,0,16,8,8.4,8.4,0,0,0,13.7,2.3Zm-.5,10.9A7.6,7.6,0,0,1,8,15.3a7.6,7.6,0,0,1-5.2-2.1A7.6,7.6,0,0,1,.7,8,7.6,7.6,0,0,1,2.8,2.8,7.6,7.6,0,0,1,8,.7a7.6,7.6,0,0,1,5.2,2.1A7.6,7.6,0,0,1,15.3,8,7.6,7.6,0,0,1,13.2,13.2Z"></path><path d="M11,11l.5.5A4.8,4.8,0,0,1,8,12.9,4.8,4.8,0,0,1,3.1,8,4.8,4.8,0,0,1,8,3.1a4.8,4.8,0,0,1,3.5,1.4L11,5A4.1,4.1,0,0,0,8,3.8,4.1,4.1,0,0,0,3.8,8,4.1,4.1,0,0,0,8,12.2,4.1,4.1,0,0,0,11,11Z"></path></svg>
+    			<div>SINA GHANBARI . 2021 . All Rights Reserved</div>
+    		</div>
+	    </div>
+	</div>
+
+	<script>
+	var slideIndex = 1;
+	//showSlides(elm, slideIndex);
+
+	function plusSlides(elm, n) {
+	  var row = elm.closest(".row");
+	  var dots = row.getElementsByClassName("demo");
+	  for(i=0;i<dots.length;i++) {
+	      if(window.getComputedStyle(dots[i]).getPropertyValue("opacity")=="1") {
+	          slideIndex=i+1;
+	          break;
+	      }
+	  }
+	    
+	  showSlides(elm, slideIndex += n);
+	}
+
+	function currentSlide(elm, n) {
+	  showSlides(elm, slideIndex = n);
+	}
+
+	function showSlides(elm, n) {
+	  var i;
+	  var cont = elm.closest(".container");
+	  var slides = cont.getElementsByClassName("mySlides");
+	  var row = elm.closest(".row");
+	  var dots = row.getElementsByClassName("demo");
+	   
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";	}
+	</script>
+	
+	<script>
+		var btn = $('#button');
+		$(window).scroll(function() {
+  		if ($(window).scrollTop() > 600) {
+    	btn.addClass('show');
+  		} else {
+    	btn.removeClass('show');
+  		}
+		});
+
+		btn.on('click', function(e) {
+  		e.preventDefault();
+  		$('html, body').animate({scrollTop:0}, '600');
+		});
+	</script>
+	
+	<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+    <script src="/js/lang.js"></script>
+
+</body>
+</html>

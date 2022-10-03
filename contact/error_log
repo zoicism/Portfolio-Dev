@@ -1,0 +1,4 @@
+[02-Aug-2021 19:37:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sinaghan/public_html/contact/contact_us.php on line 48
+[02-Aug-2021 19:38:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sinaghan/public_html/contact/contact_us.php on line 48
+[02-Aug-2021 19:38:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sinaghan/public_html/contact/contact_us.php:46) in /home/sinaghan/public_html/contact/contact_us.php on line 47
+[02-Aug-2021 19:40:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sinaghan/public_html/contact/contact_us.php:46) in /home/sinaghan/public_html/contact/contact_us.php on line 47

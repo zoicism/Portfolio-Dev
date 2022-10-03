@@ -1,0 +1,133 @@
+<!DOCTYPE html lang="tr">
+<html>
+<head>
+	<title>Sina Ghanbari</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <a id="button">
+		<svg viewBox="0 0 40 40"><defs></defs><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20.1,20.1,0,0,0,20,0Z"/><polygon points="11.5 20 20 11.5 28.5 20 27.5 20.9 20.7 14.1 20.7 28.5 19.3 28.5 19.3 14.1 12.5 20.9 11.5 20"/></svg>
+	</a>
+    
+    <div class="top-bar">
+		<div class="logo-container">
+			<svg viewBox="0 0 260 260"><defs><style></style></defs><path d="M200,130a66.3,66.3,0,0,1-.7,10A70.3,70.3,0,0,1,140,199.3a71.8,71.8,0,0,1-20,0A70.3,70.3,0,0,1,60.7,140a71.8,71.8,0,0,1,0-20A70.3,70.3,0,0,1,120,60.7a71.8,71.8,0,0,1,20,0V81a50.5,50.5,0,0,0-20,0,50.1,50.1,0,0,0-39,39,50.5,50.5,0,0,0,0,20,50.1,50.1,0,0,0,39,39,50.5,50.5,0,0,0,20,0,49.2,49.2,0,0,0,25.3-13.7A49.9,49.9,0,0,0,179,140H140V120h59.3A66.3,66.3,0,0,1,200,130Z"/><path d="M260,130c0,3.4-.1,6.7-.4,10A130.1,130.1,0,0,1,140,259.6c-3.3.3-6.6.4-10,.4s-6.7-.1-10-.4A130,130,0,0,1,20.5,200,122.8,122.8,0,0,1,10,180H32a108.2,108.2,0,0,0,13.2,20A109.9,109.9,0,0,0,120,239.5c3.3.3,6.6.5,10,.5s6.7-.2,10-.5A109.9,109.9,0,0,0,214.8,200a108.6,108.6,0,0,0,24.7-60c.3-3.3.5-6.6.5-10s-.2-6.7-.5-10h20.1C259.9,123.3,260,126.6,260,130Z"/><path d="M250,80H228a108.2,108.2,0,0,0-13.2-20A109.9,109.9,0,0,0,140,20.5a82.7,82.7,0,0,0-10-.5,82.7,82.7,0,0,0-10,.5A109.9,109.9,0,0,0,45.2,60a108.6,108.6,0,0,0-24.7,60,82.7,82.7,0,0,0-.5,10,82.7,82.7,0,0,0,.5,10H.4c-.3-3.3-.4-6.6-.4-10s.1-6.7.4-10A130.2,130.2,0,0,1,10,80,122.8,122.8,0,0,1,20.5,60,130,130,0,0,1,120,.4c3.3-.3,6.6-.4,10-.4s6.7.1,10,.4A130.4,130.4,0,0,1,250,80Z"/></svg>
+			<div class="logo-txt">
+				<div class="logo-name">SINA GHANBARI</div>
+				<div class="logo-profession">ARCHITECT & DESIGNER</div>
+			</div>
+		</div>
+		<div class="links">
+			<a href="/" class="link engl">HOME</a>
+			<a href="/" class="link turk" style="display: none;">EV</a>
+			<a href="/#projects-page" class="link engl">PROJECTS</a>
+			<a href="/#projects-page" class="link turk" style="display: none;">PROJELER</a>
+			<a href="/awards/" class="link engl">AWARDS</a>
+			<a href="/awards/" class="link turk" style="display: none;">ÖDÜLLER</a>
+			<a href="/about/" class="link engl">ABOUT</a>
+			<a href="/about/" class="link turk" style="display: none;">HAKKINDA</a>
+			<a href="/contact/" class="link engl" style="border-bottom: 1px solid #212529;">CONTACT</a>
+			<a href="/contact/" class="link TURK" style="border-bottom: 1px solid #212529;display: none;">İLETİŞİM</a>
+			<a class="link lang-cnt lang">EN</a>
+		</div>
+		
+		<span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+		<div id="mySidenav" class="sidenav">
+		    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="/" class="link engl">HOME</a>
+			<a href="/" class="link turk" style="display: none;">EV</a>
+			<a href="#projects-page" class="link engl">PROJECTS</a>
+			<a href="#projects-page" class="link turk" style="display: none;">PROJELER</a>
+			<a href="/awards/" class="link engl">AWARDS</a>
+			<a href="/awards/" class="link turk" style="display: none;">ÖDÜLLER</a>
+			<a href="/about/" class="link engl">ABOUT</a>
+			<a href="/about/" class="link turk" style="display: none;">HAKKINDA</a>
+			<a href="/contact/" class="link engl" style="border-bottom: 1px solid #434a52;">CONTACT</a>
+			<a href="/contact/" class="link turk" style="border-bottom: 1px solid #434a52;display: none;">İLETİŞİM</a>
+			<a class="link lang-cnt lang">EN</a>
+		</div>
+	</div>
+	<div class="contact">
+		<div class="contact-left">
+			<div class="contact-txt engl">CONTACT ME</div>
+			<div class="contact-txt turk" style="display: none;">BENİMLE İRTİBATA GEÇİN</div>
+			<div class="contact-info email">
+				<svg viewBox="0 0 30 30"><defs><style>.cls-1{fill:#212529;}</style></defs><path class="cls-1" d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,1.3A13.8,13.8,0,0,0,1.3,15,13.8,13.8,0,0,0,15,28.7h0A13.8,13.8,0,0,0,28.7,15,13.8,13.8,0,0,0,15,1.3Z"/><polygon class="cls-1" points="22.8 8.7 21.1 10 15 15 8.9 10 7.3 8.7 22.8 8.7"/><polygon class="cls-1" points="22.8 11.4 22.8 21.3 7.3 21.3 7.3 11.4 8.6 12.5 9.5 13.2 14.2 17 15 17.7 15.8 17 20.5 13.2 21.4 12.5 21.4 12.5 22.8 11.4"/></svg>
+				<a class="engl" href="mailto:sinaghanbari.designer@gmail.com">Email: sinaghanbari.designer@gmail.com</a>
+				<a class="turk" style="display: none;" href="mailto:sinaghanbari.designer@gmail.com">E-posta: sinaghanbari.designer@gmail.com</a>
+			</div>
+			<div class="contact-info phone">
+				<svg viewBox="0 0 30 30"><defs><style>.cls-1{fill:#212529;}</style></defs><path class="cls-1" d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,1.3A13.8,13.8,0,0,0,1.3,15,13.8,13.8,0,0,0,15,28.7h0A13.8,13.8,0,0,0,28.7,15,13.8,13.8,0,0,0,15,1.3Z"/><path class="cls-1" d="M17.5,17.2l-1.3,1.3c-.1,0-.2.1-.2,0a11.3,11.3,0,0,1-4.2-4.2c-.1-.1-.1-.2,0-.2l1.3-1.3c.1-.2.2-.3.1-.5a9.1,9.1,0,0,1-1-4,.4.4,0,0,0-.4-.4H7.3a.4.4,0,0,0-.4.4,15.8,15.8,0,0,0,2.5,8.1,15.4,15.4,0,0,0,4.4,4.4A15.6,15.6,0,0,0,22,23.4a.4.4,0,0,0,.4-.4V18.5a.4.4,0,0,0-.4-.4,10.7,10.7,0,0,1-4-1A.4.4,0,0,0,17.5,17.2Z"/></svg>
+				<div class="engl">Phone: +905013209432</div>
+				<div class="turk" style="display: none;">Telefon: +905013209432</div>
+			</div>
+			<div class="contact-info linkedin">
+				<svg viewBox="0 0 30 30"><defs><style>.cls-1{fill:#212529;}</style></defs><path class="cls-1" d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,1.3A13.8,13.8,0,0,0,1.3,15,13.8,13.8,0,0,0,15,28.7h0A13.8,13.8,0,0,0,28.7,15,13.8,13.8,0,0,0,15,1.3Z"/><path class="cls-1" d="M11.1,10.3a1.3,1.3,0,0,1-1.4,1.3,1.4,1.4,0,0,1-1.5-1.3A1.4,1.4,0,0,1,9.7,9,1.3,1.3,0,0,1,11.1,10.3ZM8.3,21V12.7H11V21Z"/><path class="cls-1" d="M13.3,15.4a21,21,0,0,0-.1-2.7h2.4v1.2h.1a3.2,3.2,0,0,1,2.7-1.4c1.8,0,3.3,1.1,3.3,3.7V21H19.1V16.6c0-1.2-.5-2-1.5-2a1.6,1.6,0,0,0-1.5,1.1c-.1.1-.1.4-.1.6V21H13.3Z"/></svg>
+				<a class="engl" href="https://www.linkedin.com/in/sina-ghanabari-139b77104/">Linkedin</a>
+				<a class="turk" style="display: none;" href="https://www.linkedin.com/in/sina-ghanabari-139b77104/">Linkedin</a>
+			</div>
+		</div>
+		<div class="contact-right">
+			<form class="txt-input-cnt" action="contact_us.php" method="POST">
+				<label>
+					<div class="engl">Full Name</div>
+					<div class="turk" style="display: none;">Tam Ad</div>
+					<svg viewBox="0 0 8 7.6"><defs><style>.cls-1{fill:#212529;}</style></defs><polygon class="cls-1" points="4 0 4.9 2.9 8 2.9 5.5 4.7 6.5 7.6 4 5.8 1.5 7.6 2.5 4.7 0 2.9 3.1 2.9 4 0"/></svg>
+				</label>
+				<input class="engl" type="text" name="fullname" placeholder="Your Full Name" required>
+				<input class="turk" style="display: none;" type="text" name="fullname" placeholder="Tam adınız" required>
+				<label>
+					<div class="engl">Subject</div>
+					<div class="turk" style="display: none;">konu</div>
+					<svg viewBox="0 0 8 7.6"><defs><style>.cls-1{fill:#212529;}</style></defs><polygon class="cls-1" points="4 0 4.9 2.9 8 2.9 5.5 4.7 6.5 7.6 4 5.8 1.5 7.6 2.5 4.7 0 2.9 3.1 2.9 4 0"/></svg>
+				</label>
+				<input class="engl" type="text" name="subject" placeholder="Your Subject" required>
+				<input class="turk" style="display: none;" type="text" name="subject" placeholder="Konunuz" required>
+				<label>
+					<div class="engl">Email Address</div>
+					<div class="turk" style="display: none;">E-posta Adres</div>
+					<svg viewBox="0 0 8 7.6"><defs><style>.cls-1{fill:#212529;}</style></defs><polygon class="cls-1" points="4 0 4.9 2.9 8 2.9 5.5 4.7 6.5 7.6 4 5.8 1.5 7.6 2.5 4.7 0 2.9 3.1 2.9 4 0"/></svg>
+				</label>
+				<input class="engl" type="text" name="emailaddr" placeholder="Your Email Address" required>
+				<input class="turk" style="display: none;" type="text" name="emailaddr" placeholder="E-posta adresiniz" required>
+				<label>
+					<div class="engl">Message</div>
+					<div class="turk" style="display: none;">Mesaj</div>
+					<svg viewBox="0 0 8 7.6"><defs><style>.cls-1{fill:#212529;}</style></defs><polygon class="cls-1" points="4 0 4.9 2.9 8 2.9 5.5 4.7 6.5 7.6 4 5.8 1.5 7.6 2.5 4.7 0 2.9 3.1 2.9 4 0"/></svg>
+				</label>
+				<textarea class="engl" name="msgbody" placeholder="Your Message" required></textarea>
+				<textarea class="turk" style="display:none;" name="msgbody" placeholder="Mesajınız" required></textarea>
+				<input class="submit-btn engl" type="submit" name="submit" value="Send Message">
+				<input class="submit-btn turk" style="display: none;" type="submit" name="submit" value="Mesaj Gönder">
+			</form>
+			<p style="display:none" class="success-mg" id="success">Your message was sent successfully.</p>
+		</div>
+	</div>
+	
+	<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+    <script>
+        if(window.location.search.substr(1)=='success=y') {
+            document.getElementById("success").style.display = "block";   
+        }
+    </script>
+    
+    <script src="/js/lang.js"></script>
+    
+</body>
+</html>
